@@ -8,10 +8,17 @@
   </head>
   <body>
     <a-scene background="color: #fCECEC">
-      <a-box position="0 0.5 -5" rotation="-45 45 0" color="#4CC3D9" shadow></a-box>
-      <a-sphere position="-1 1.25 -3" radius="0.25" color="#EF2D5E" shadow></a-sphere>
-      <a-cylinder  position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"  rotation= "0 0 90"shadow></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+        <!-- <a-camera position="0 0 4"></a-camera> -->
+        <a-ring  position="-5 0.5 -5" color="#9f9f39" radius-inner="0.2" radius-outer="0.5"></a-ring>
+        <a-octahedron position="-3.5 0.75 -5" color="#0f9f99" radius="0.75"></a-octahedron>
+        <a-cone position="-2 0.5 -5" color="#0f0ff9" radius-top="0" radius-bottom=".5"></a-cone>
+        <a-box position="-0.5 0.5 -5" color="#905f9F" height="1"></a-box>
+        <a-dodecahedron position="1 0.5 -5" color="#AB0" radius="0.75"></a-dodecahedron>
+        <a-cylinder position="2.5 0.5 -5" color="#8a2bec" radius="0.5"></a-cylinder>
+        <a-icosahedron position="4 0.75 -5" color="#16914d" radius="0.75"></a-icosahedron>
+      <a-plane position="0 0 -5" rotation="-90 0 0" width="12" height="1"  
+      length="20" 
+      color="#2f2f2f" shadow></a-plane>
     </a-scene>
   </body>
 </html>
